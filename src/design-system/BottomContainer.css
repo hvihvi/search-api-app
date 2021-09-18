@@ -1,0 +1,11 @@
+.BottomContainer {
+    padding: 24px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    border-top: 1px solid #6b819b;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
