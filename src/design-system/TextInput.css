@@ -1,0 +1,9 @@
+.TextInput {
+}
+
+@media (max-width: 555px) {
+    .TextInput {
+        width: 100%;
+
+    }
+}
