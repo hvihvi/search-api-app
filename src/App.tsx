@@ -1,26 +1,26 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from "react";
+import "./App.css";
+import { TextInput } from "./design-system/TextInput";
+import { useSearchResult } from "./useSearchResult";
 
-function App() {
+const App = () => {
+  const [searchTerm, setSearchTerm] = useState("");
+  const searchResult = useSearchResult(searchTerm);
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <TextInput
+        id="searchProduct"
+        onChange={(e) => setSearchTerm(e.target.value)}
+        value={searchTerm}
+        label="Rechercher un produit"
+      />
+      {searchResult?.products
+        .map((p) => p.image_front_url)
+        .map((src) => (
+          <img src={src} alt={"produit"} />
+        ))}
     </div>
   );
-}
+};
 
 export default App;

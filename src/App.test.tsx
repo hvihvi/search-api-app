@@ -1,9 +1,10 @@
-import React from 'react';
-import { render, screen } from '@testing-library/react';
-import App from './App';
+import React from "react";
+import { render, screen } from "@testing-library/react";
+import App from "./App";
 
-test('renders learn react link', () => {
+// TODO mock fetch, add more test
+it("should render a text input", () => {
   render(<App />);
-  const linkElement = screen.getByText(/learn react/i);
-  expect(linkElement).toBeInTheDocument();
+  const input = screen.getByLabelText(/Rechercher un produit/i);
+  expect(input).toBeInTheDocument();
 });
