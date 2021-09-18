@@ -3,17 +3,20 @@ import "./App.css";
 import { TextInput } from "./design-system/TextInput";
 import { useSearchResult } from "./useSearchResult";
 import { BottomContainer } from "./design-system/BottomContainer";
+import { ProductContainer } from "./design-system/ProductContainer";
+import { ProductImage } from "./design-system/ProductImage";
+import { EmptyContent } from "./EmptyContent";
 
 const App = () => {
   const [searchTerm, setSearchTerm] = useState("");
   const searchResult = useSearchResult(searchTerm);
   return (
     <div>
-      {searchResult?.products
-        .map((p) => p.image_front_url)
-        .map((src) => (
-          <img src={src} alt={"produit"} />
-        ))}
+      <ProductContainer>
+        {searchResult?.products.map((product) => (
+          <ProductImage src={product.image_front_url} alt={"TODO"} />
+        )) ?? <EmptyContent />}
+      </ProductContainer>
       <BottomContainer>
         <TextInput
           id="searchProduct"
