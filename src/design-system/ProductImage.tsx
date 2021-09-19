@@ -1,14 +1,14 @@
 import "./ProductImage.css";
+import { Product } from "../http";
 
-export const ProductImage = ({ src, alt }: ProductImageProps) => {
+export const ProductImage = ({ product }: ProductImageProps) => {
   return (
     <div className="ProductImage">
-      <img src={src} alt={alt} />
+      <img src={product.image_front_url} alt={product.product_name} />
     </div>
   );
 };
 
 type ProductImageProps = {
-  src: string;
-  alt: string;
+  product: Product;
 };

@@ -14,7 +14,7 @@ const App = () => {
     <div>
       <ProductContainer>
         {searchResult?.products.map((product) => (
-          <ProductImage src={product.image_front_url} alt={"TODO"} />
+          <ProductImage product={product} key={product._id} />
         )) ?? <EmptyContent />}
       </ProductContainer>
       <BottomContainer>

@@ -7,6 +7,7 @@ export type ApiResponse = {
   products: Product[];
 };
 export type Product = {
+  _id: string;
   image_front_url: string;
   product_name: string;
 };
