@@ -22,7 +22,7 @@ const App = () => {
           id="searchProduct"
           onChange={(e) => setSearchTerm(e.target.value)}
           value={searchTerm}
-          label="Rechercher un produit"
+          label="Rechercher un produit 🔎"
         />
       </BottomContainer>
     </div>
