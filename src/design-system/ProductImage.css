@@ -3,6 +3,8 @@
     height: 200px;
     overflow: hidden;
     border-radius: 24px;
+    filter: drop-shadow(0px 0px 25px hsl(0deg 0% 0% / 0.3));
+    transition: transform 0.2s ease-in;
 }
 
 .ProductImage img {
@@ -12,8 +14,8 @@
     transition: transform 0.2s ease-in;
 }
 
-.ProductImage:focus img,
-.ProductImage:hover img {
+.ProductImage:focus,
+.ProductImage:hover {
     transform: scale(1.1);
     object-fit: cover;
 }
