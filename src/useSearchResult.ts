@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { fetchOpenFoodFacts } from "./http";
+import { ApiResponse, fetchOpenFoodFacts } from "./http";
 
 export const useSearchResult = (searchTerm: string) => {
   const [searchResult, setSearchResult] = useState<ApiResponse>();
@@ -14,12 +14,4 @@ export const useSearchResult = (searchTerm: string) => {
     return () => clearTimeout(timeoutId);
   }, [searchTerm]);
   return searchResult;
-};
-
-type ApiResponse = {
-  products: Product[];
-};
-type Product = {
-  image_front_url: string;
-  product_name: string;
 };
