@@ -3,7 +3,7 @@ import { HiddenForA11y } from "./HiddenForA11y";
 import "./TextInput.css";
 
 export const TextInput = ({ label, value, onChange, id }: TextInputProps) => (
-  <div>
+  <>
     <HiddenForA11y>
       <label htmlFor={id}>{label}</label>
     </HiddenForA11y>
@@ -14,7 +14,7 @@ export const TextInput = ({ label, value, onChange, id }: TextInputProps) => (
       value={value}
       placeholder={label}
     />
-  </div>
+  </>
 );
 
 type TextInputProps = {

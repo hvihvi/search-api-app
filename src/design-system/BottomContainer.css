@@ -1,10 +1,10 @@
 .BottomContainer {
-    padding: 24px;
+    padding: 12px 0;
     position: fixed;
     bottom: 0;
     width: 100%;
-    border-top: 1px solid #6b819b;
-    background-color: white;
+    background: rgb(104, 227, 255);
+    background: radial-gradient(circle, rgb(104, 227, 255) 80%, rgba(255,255,255,1) 100%);
     display: flex;
     align-items: center;
     justify-content: center;
