@@ -11,3 +11,10 @@ export type Product = {
   image_front_url: string;
   product_name: string;
 };
+
+export const fetchProducts = (id: string): Promise<ProductApiResponse> =>
+  fetch(`https://world.openfoodfacts.org/api/v0/product/${id}.json`).then((r) =>
+    r.json()
+  );
+
+export type ProductApiResponse = { id: string; product: Product };
