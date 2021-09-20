@@ -1,9 +1,15 @@
 .Product {
   display: flex;
+  justify-content: center;
   border-radius: 24px;
   border: 1px solid #444444;
   margin: 10px;
   background-color: #e9c8ff17;
+}
+
+.Product section {
+  max-width: 1024px;
+  margin: 20px;
 }
 
 .Product img {
@@ -13,11 +19,9 @@
 }
 
 .Product h1 {
-  text-align: center;
-  font-size: 3rem;
+  font-size: 2.5rem;
 }
 
 .Product h2 {
-  text-align: center;
   font-size: 1.25rem;
 }
