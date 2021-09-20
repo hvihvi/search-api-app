@@ -52,5 +52,7 @@ describe("My app", () => {
     // then
     const title = await screen.findByText("Punk IPA");
     expect(title).toBeInTheDocument();
+    const gluten = await screen.findByText("gluten");
+    expect(gluten).toBeInTheDocument();
   });
 });
