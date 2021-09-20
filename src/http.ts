@@ -10,6 +10,8 @@ export type Product = {
   _id: string;
   image_front_url: string;
   product_name: string;
+  _keywords: string[];
+  allergens: string;
 };
 
 export const fetchProduct = (id: string): Promise<ProductApiResponse> =>
