@@ -2,7 +2,9 @@ import React from "react";
 import { fireEvent, render, screen, waitFor } from "@testing-library/react";
 import App from "./App";
 import mockSearch from "./mocks/mock_search.json";
-import mockProduct from "./mocks/mock_product.json";
+
+jest.mock("./http");
+const http = require("./http");
 
 describe("My app", () => {
   it("should render a text input", () => {
@@ -21,10 +23,7 @@ describe("My app", () => {
 
   it("should render images when typing IPA in the input", async () => {
     // given
-    jest.mock("./http", () => ({
-      fetchSearch: jest.fn().mockReturnValue(Promise.resolve(mockSearch)),
-      fetchProduct: jest.fn().mockReturnValue(Promise.resolve(mockProduct)),
-    }));
+    http.fetchSearch.mockResolvedValue(mockSearch);
     render(<App />);
     const input = screen.getByLabelText(/Rechercher un produit/i);
 
