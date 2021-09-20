@@ -1,0 +1,1116 @@
+{
+  "code": "5060154914030",
+  "product": {
+    "_id": "5060154914030",
+    "_keywords": [
+      "artisanale",
+      "alcool",
+      "aux",
+      "boisson",
+      "india-pale-ale",
+      "enceinte",
+      "artisanaux",
+      "deconseille",
+      "femme",
+      "punk",
+      "ipa",
+      "alcoolisee",
+      "biere",
+      "produit",
+      "brewdog"
+    ],
+    "added_countries_tags": [],
+    "additives_debug_tags": [],
+    "additives_n": 0,
+    "additives_old_n": 0,
+    "additives_old_tags": [],
+    "additives_original_tags": [],
+    "additives_prev_original_tags": [],
+    "additives_tags": [],
+    "allergens": "en:gluten",
+    "allergens_from_ingredients": "en:gluten, orge",
+    "allergens_from_user": "(fr) en:gluten",
+    "allergens_hierarchy": [
+      "en:gluten"
+    ],
+    "allergens_lc": "fr",
+    "allergens_tags": [
+      "en:gluten"
+    ],
+    "amino_acids_prev_tags": [],
+    "amino_acids_tags": [],
+    "brands": "Brewdog",
+    "brands_tags": [
+      "brewdog"
+    ],
+    "categories": "Boissons, Boissons alcoolisées, Produits artisanaux, Bières, Alcools artisanaux, Bières artisanales, en:India Pale Ale",
+    "categories_hierarchy": [
+      "en:beverages",
+      "en:alcoholic-beverages",
+      "en:artisan-products",
+      "en:beers",
+      "en:artisanal-spirits",
+      "en:craft-beers",
+      "en:india-pale-ale"
+    ],
+    "categories_lc": "fr",
+    "categories_old": "Boissons, Boissons alcoolisées, Produits artisanaux, Bières, Alcools artisanaux, Bières artisanales, en:India Pale Ale",
+    "categories_properties": {
+      "agribalyse_proxy_food_code:en": "5000"
+    },
+    "categories_properties_tags": [
+      "all-products",
+      "categories-known",
+      "agribalyse-food-code-unknown",
+      "agribalyse-proxy-food-code-5000",
+      "agribalyse-proxy-food-code-known",
+      "ciqual-food-code-unknown",
+      "agribalyse-known",
+      "agribalyse-5000"
+    ],
+    "categories_tags": [
+      "en:beverages",
+      "en:alcoholic-beverages",
+      "en:artisan-products",
+      "en:beers",
+      "en:artisanal-spirits",
+      "en:craft-beers",
+      "en:india-pale-ale"
+    ],
+    "category_properties": {},
+    "checkers_tags": [],
+    "ciqual_food_name_tags": [
+      "unknown"
+    ],
+    "cities_tags": [],
+    "code": "5060154914030",
+    "codes_tags": [
+      "code-13",
+      "5060154914xxx",
+      "506015491xxxx",
+      "50601549xxxxx",
+      "5060154xxxxxx",
+      "506015xxxxxxx",
+      "50601xxxxxxxx",
+      "5060xxxxxxxxx",
+      "506xxxxxxxxxx",
+      "50xxxxxxxxxxx",
+      "5xxxxxxxxxxxx"
+    ],
+    "compared_to_category": "fr:india-pale-ale",
+    "complete": 0,
+    "completeness": 0.7875,
+    "correctors_tags": [
+      "lombaxair",
+      "openfoodfacts-contributors",
+      "yuka.Ylo4REthSUZ0cWhSeHNFUTNrM1ExZWg3eU1hMFRFWG9KN3NOSVE9PQ",
+      "foodrepo",
+      "sebleouf",
+      "versgui"
+    ],
+    "countries": "France,Suisse",
+    "countries_hierarchy": [
+      "en:france",
+      "en:switzerland"
+    ],
+    "countries_lc": "fr",
+    "countries_tags": [
+      "en:france",
+      "en:switzerland"
+    ],
+    "created_t": 1538844926,
+    "creator": "lombaxair",
+    "data_quality_bugs_tags": [],
+    "data_quality_errors_tags": [],
+    "data_quality_info_tags": [
+      "en:packaging-data-incomplete",
+      "en:ingredients-percent-analysis-ok"
+    ],
+    "data_quality_tags": [
+      "en:packaging-data-incomplete",
+      "en:ingredients-percent-analysis-ok",
+      "en:alcoholic-beverages-category-without-alcohol-value"
+    ],
+    "data_quality_warnings_tags": [
+      "en:alcoholic-beverages-category-without-alcohol-value"
+    ],
+    "data_sources": "App - yuka, Apps",
+    "data_sources_tags": [
+      "app-yuka",
+      "apps"
+    ],
+    "debug_param_sorted_langs": [
+      "en",
+      "fr"
+    ],
+    "ecoscore_data": {
+      "adjustments": {
+        "origins_of_ingredients": {
+          "aggregated_origins": [
+            {
+              "origin": "en:unknown",
+              "percent": 100
+            }
+          ],
+          "epi_score": 0,
+          "epi_value": -5,
+          "origins_from_origins_field": [
+            "en:unknown"
+          ],
+          "transportation_score_be": 0,
+          "transportation_score_ch": 0,
+          "transportation_score_de": 0,
+          "transportation_score_es": 0,
+          "transportation_score_fr": 0,
+          "transportation_score_ie": 0,
+          "transportation_score_it": 0,
+          "transportation_score_lu": 0,
+          "transportation_score_nl": 0,
+          "transportation_value_be": 0,
+          "transportation_value_ch": 0,
+          "transportation_value_de": 0,
+          "transportation_value_es": 0,
+          "transportation_value_fr": 0,
+          "transportation_value_ie": 0,
+          "transportation_value_it": 0,
+          "transportation_value_lu": 0,
+          "transportation_value_nl": 0,
+          "value_be": -5,
+          "value_ch": -5,
+          "value_de": -5,
+          "value_es": -5,
+          "value_fr": -5,
+          "value_ie": -5,
+          "value_it": -5,
+          "value_lu": -5,
+          "value_nl": -5,
+          "warning": "origins_are_100_percent_unknown"
+        },
+        "packaging": {
+          "non_recyclable_and_non_biodegradable_materials": 0,
+          "packagings": [
+            {
+              "ecoscore_material_score": 0,
+              "ecoscore_shape_ratio": "1",
+              "material": "en:unknown",
+              "shape": "en:drink-can"
+            }
+          ],
+          "score": 0,
+          "value": -10,
+          "warning": "unspecified_material"
+        },
+        "production_system": {
+          "warning": "no_label"
+        },
+        "threatened_species": {}
+      },
+      "agribalyse": {
+        "agribalyse_food_code": "5000",
+        "agribalyse_proxy_food_code": "5000",
+        "co2_agriculture": "0.044404353",
+        "co2_consumption": "0.0047993021",
+        "co2_distribution": "0.028932423",
+        "co2_packaging": "0.49690685",
+        "co2_processing": "0.25081748",
+        "co2_total": "1.0944464",
+        "co2_transportation": "0.268586",
+        "code": "5000",
+        "dqr": "3.07",
+        "ef_agriculture": "0.0084453762",
+        "ef_consumption": "0.0024293397",
+        "ef_distribution": "0.0088128735",
+        "ef_packaging": "0.051649676000000005",
+        "ef_processing": "0.031844848999999995",
+        "ef_total": "0.12383059000000002",
+        "ef_transportation": "0.02064847",
+        "is_beverage": 1,
+        "name_en": "Beer, dark",
+        "name_fr": "Bière brune",
+        "score": 57
+      },
+      "grade": "c",
+      "grade_be": "c",
+      "grade_ch": "c",
+      "grade_de": "c",
+      "grade_es": "c",
+      "grade_fr": "c",
+      "grade_ie": "c",
+      "grade_it": "c",
+      "grade_lu": "c",
+      "grade_nl": "c",
+      "missing": {
+        "labels": 1,
+        "origins": 1,
+        "packagings": 1
+      },
+      "missing_data_warning": 1,
+      "score": 47,
+      "score_be": 42,
+      "score_ch": 42,
+      "score_de": 42,
+      "score_es": 42,
+      "score_fr": 42,
+      "score_ie": 42,
+      "score_it": 42,
+      "score_lu": 42,
+      "score_nl": 42,
+      "status": "known"
+    },
+    "ecoscore_grade": "c",
+    "ecoscore_score": 42,
+    "ecoscore_tags": [
+      "c"
+    ],
+    "editors_tags": [
+      "openfoodfacts-contributors",
+      "lombaxair",
+      "foodrepo",
+      "sebleouf",
+      "kiliweb",
+      "yuka.Ylo4REthSUZ0cWhSeHNFUTNrM1ExZWg3eU1hMFRFWG9KN3NOSVE9PQ",
+      "gaetan7",
+      "versgui"
+    ],
+    "emb_codes": "",
+    "emb_codes_tags": [],
+    "entry_dates_tags": [
+      "2018-10-06",
+      "2018-10",
+      "2018"
+    ],
+    "expiration_date": "",
+    "generic_name": "",
+    "generic_name_en": "",
+    "generic_name_fr": "",
+    "id": "5060154914030",
+    "image_front_small_url": "https://images.openfoodfacts.org/images/products/506/015/491/4030/front_en.30.200.jpg",
+    "image_front_thumb_url": "https://images.openfoodfacts.org/images/products/506/015/491/4030/front_en.30.100.jpg",
+    "image_front_url": "https://images.openfoodfacts.org/images/products/506/015/491/4030/front_en.30.400.jpg",
+    "image_ingredients_small_url": "https://images.openfoodfacts.org/images/products/506/015/491/4030/ingredients_en.32.200.jpg",
+    "image_ingredients_thumb_url": "https://images.openfoodfacts.org/images/products/506/015/491/4030/ingredients_en.32.100.jpg",
+    "image_ingredients_url": "https://images.openfoodfacts.org/images/products/506/015/491/4030/ingredients_en.32.400.jpg",
+    "image_nutrition_small_url": "https://images.openfoodfacts.org/images/products/506/015/491/4030/nutrition_en.33.200.jpg",
+    "image_nutrition_thumb_url": "https://images.openfoodfacts.org/images/products/506/015/491/4030/nutrition_en.33.100.jpg",
+    "image_nutrition_url": "https://images.openfoodfacts.org/images/products/506/015/491/4030/nutrition_en.33.400.jpg",
+    "image_small_url": "https://images.openfoodfacts.org/images/products/506/015/491/4030/front_en.30.200.jpg",
+    "image_thumb_url": "https://images.openfoodfacts.org/images/products/506/015/491/4030/front_en.30.100.jpg",
+    "image_url": "https://images.openfoodfacts.org/images/products/506/015/491/4030/front_en.30.400.jpg",
+    "images": {
+      "1": {
+        "sizes": {
+          "100": {
+            "h": 100,
+            "w": 47
+          },
+          "400": {
+            "h": 400,
+            "w": 188
+          },
+          "full": {
+            "h": 4032,
+            "w": 1893
+          }
+        },
+        "uploaded_t": 1538844926,
+        "uploader": "lombaxair"
+      },
+      "10": {
+        "sizes": {
+          "100": {
+            "h": 100,
+            "w": 75
+          },
+          "400": {
+            "h": 400,
+            "w": 299
+          },
+          "full": {
+            "h": 4032,
+            "w": 3016
+          }
+        },
+        "uploaded_t": 1590833530,
+        "uploader": "sebleouf"
+      },
+      "11": {
+        "sizes": {
+          "100": {
+            "h": 100,
+            "w": 75
+          },
+          "400": {
+            "h": 400,
+            "w": 299
+          },
+          "full": {
+            "h": 4032,
+            "w": 3016
+          }
+        },
+        "uploaded_t": 1590833536,
+        "uploader": "sebleouf"
+      },
+      "12": {
+        "sizes": {
+          "100": {
+            "h": 100,
+            "w": 75
+          },
+          "400": {
+            "h": 400,
+            "w": 299
+          },
+          "full": {
+            "h": 4032,
+            "w": 3016
+          }
+        },
+        "uploaded_t": 1590833547,
+        "uploader": "sebleouf"
+      },
+      "2": {
+        "sizes": {
+          "100": {
+            "h": 100,
+            "w": 44
+          },
+          "400": {
+            "h": 400,
+            "w": 176
+          },
+          "full": {
+            "h": 4032,
+            "w": 1776
+          }
+        },
+        "uploaded_t": 1538845037,
+        "uploader": "lombaxair"
+      },
+      "3": {
+        "sizes": {
+          "100": {
+            "h": 22,
+            "w": 100
+          },
+          "400": {
+            "h": 89,
+            "w": 400
+          },
+          "full": {
+            "h": 435,
+            "w": 1955
+          }
+        },
+        "uploaded_t": 1538845074,
+        "uploader": "lombaxair"
+      },
+      "4": {
+        "sizes": {
+          "100": {
+            "h": 46,
+            "w": 100
+          },
+          "400": {
+            "h": 182,
+            "w": 400
+          },
+          "full": {
+            "h": 562,
+            "w": 1235
+          }
+        },
+        "uploaded_t": 1541533098,
+        "uploader": "kiliweb"
+      },
+      "5": {
+        "sizes": {
+          "100": {
+            "h": 56,
+            "w": 100
+          },
+          "400": {
+            "h": 225,
+            "w": 400
+          },
+          "full": {
+            "h": 563,
+            "w": 1000
+          }
+        },
+        "uploaded_t": 1554304043,
+        "uploader": "foodrepo"
+      },
+      "6": {
+        "sizes": {
+          "100": {
+            "h": 56,
+            "w": 100
+          },
+          "400": {
+            "h": 225,
+            "w": 400
+          },
+          "full": {
+            "h": 563,
+            "w": 1000
+          }
+        },
+        "uploaded_t": 1554304044,
+        "uploader": "foodrepo"
+      },
+      "7": {
+        "sizes": {
+          "100": {
+            "h": 100,
+            "w": 50
+          },
+          "400": {
+            "h": 400,
+            "w": 199
+          },
+          "full": {
+            "h": 3644,
+            "w": 1813
+          }
+        },
+        "uploaded_t": "1539168093",
+        "uploader": "gaetan7"
+      },
+      "8": {
+        "sizes": {
+          "100": {
+            "h": 100,
+            "w": 75
+          },
+          "400": {
+            "h": 400,
+            "w": 299
+          },
+          "full": {
+            "h": 4032,
+            "w": 3016
+          }
+        },
+        "uploaded_t": 1590833518,
+        "uploader": "sebleouf"
+      },
+      "9": {
+        "sizes": {
+          "100": {
+            "h": 100,
+            "w": 75
+          },
+          "400": {
+            "h": 400,
+            "w": 299
+          },
+          "full": {
+            "h": 4032,
+            "w": 3016
+          }
+        },
+        "uploaded_t": 1590833524,
+        "uploader": "sebleouf"
+      },
+      "front_en": {
+        "angle": "0",
+        "geometry": "958x2490-1348-1021",
+        "imgid": "9",
+        "normalize": "false",
+        "rev": "30",
+        "sizes": {
+          "100": {
+            "h": 100,
+            "w": 38
+          },
+          "200": {
+            "h": 200,
+            "w": 77
+          },
+          "400": {
+            "h": 400,
+            "w": 154
+          },
+          "full": {
+            "h": 2490,
+            "w": 958
+          }
+        },
+        "white_magic": "false",
+        "x1": "133.66668701171875",
+        "x2": "228.66668701171875",
+        "y1": "101.35000610351562",
+        "y2": "348.3500061035156"
+      },
+      "front_fr": {
+        "angle": "0",
+        "geometry": "1008x2480-1338-996",
+        "imgid": "9",
+        "normalize": "false",
+        "rev": "29",
+        "sizes": {
+          "100": {
+            "h": 100,
+            "w": 41
+          },
+          "200": {
+            "h": 200,
+            "w": 81
+          },
+          "400": {
+            "h": 400,
+            "w": 163
+          },
+          "full": {
+            "h": 2480,
+            "w": 1008
+          }
+        },
+        "white_magic": "false",
+        "x1": "132.66668701171875",
+        "x2": "232.66668701171875",
+        "y1": "98.85000610351562",
+        "y2": "344.8500061035156"
+      },
+      "ingredients_en": {
+        "angle": "90",
+        "geometry": "917x61-677-1573",
+        "imgid": "11",
+        "normalize": "false",
+        "rev": "32",
+        "sizes": {
+          "100": {
+            "h": 7,
+            "w": 100
+          },
+          "200": {
+            "h": 13,
+            "w": 200
+          },
+          "400": {
+            "h": 27,
+            "w": 400
+          },
+          "full": {
+            "h": 61,
+            "w": 917
+          }
+        },
+        "white_magic": "false",
+        "x1": "67.16668701171875",
+        "x2": "158.16668701171875",
+        "y1": "156",
+        "y2": "162"
+      },
+      "ingredients_fr": {
+        "angle": "90",
+        "geometry": "2066x161-737-1518",
+        "imgid": "11",
+        "normalize": "false",
+        "rev": "35",
+        "sizes": {
+          "100": {
+            "h": 8,
+            "w": 100
+          },
+          "200": {
+            "h": 16,
+            "w": 200
+          },
+          "400": {
+            "h": 31,
+            "w": 400
+          },
+          "full": {
+            "h": 161,
+            "w": 2066
+          }
+        },
+        "white_magic": "false",
+        "x1": "73.16668701171875",
+        "x2": "278.16668701171875",
+        "y1": "150.5",
+        "y2": "166.5"
+      },
+      "nutrition_en": {
+        "angle": "270",
+        "geometry": "493x343-1554-1074",
+        "imgid": "8",
+        "normalize": "false",
+        "rev": "33",
+        "sizes": {
+          "100": {
+            "h": 70,
+            "w": 100
+          },
+          "200": {
+            "h": 139,
+            "w": 200
+          },
+          "400": {
+            "h": 278,
+            "w": 400
+          },
+          "full": {
+            "h": 343,
+            "w": 493
+          }
+        },
+        "white_magic": "false",
+        "x1": "154.16668701171875",
+        "x2": "203.16668701171875",
+        "y1": "106.5",
+        "y2": "140.5"
+      },
+      "nutrition_fr": {
+        "angle": "270",
+        "geometry": "443x333-1564-1099",
+        "imgid": "8",
+        "normalize": "false",
+        "rev": "34",
+        "sizes": {
+          "100": {
+            "h": 75,
+            "w": 100
+          },
+          "200": {
+            "h": 150,
+            "w": 200
+          },
+          "400": {
+            "h": 301,
+            "w": 400
+          },
+          "full": {
+            "h": 333,
+            "w": 443
+          }
+        },
+        "white_magic": "false",
+        "x1": "155.16668701171875",
+        "x2": "199.16668701171875",
+        "y1": "109",
+        "y2": "142"
+      }
+    },
+    "informers_tags": [
+      "openfoodfacts-contributors",
+      "lombaxair",
+      "foodrepo",
+      "sebleouf"
+    ],
+    "ingredients": [
+      {
+        "id": "en:water",
+        "percent_estimate": 62.5,
+        "percent_max": 100,
+        "percent_min": 25,
+        "rank": 1,
+        "text": "Eau",
+        "vegan": "yes",
+        "vegetarian": "yes"
+      },
+      {
+        "id": "en:malted-barley",
+        "percent_estimate": 18.75,
+        "percent_max": 50,
+        "percent_min": 0,
+        "rank": 2,
+        "text": "malt d'_orge_",
+        "vegan": "yes",
+        "vegetarian": "yes"
+      },
+      {
+        "id": "en:hops",
+        "percent_estimate": 9.375,
+        "percent_max": 33.3333333333333,
+        "percent_min": 0,
+        "rank": 3,
+        "text": "houblons",
+        "vegan": "yes",
+        "vegetarian": "yes"
+      },
+      {
+        "id": "en:yeast",
+        "percent_estimate": 9.375,
+        "percent_max": 25,
+        "percent_min": 0,
+        "rank": 4,
+        "text": "levure",
+        "vegan": "yes",
+        "vegetarian": "yes"
+      }
+    ],
+    "ingredients_analysis_tags": [
+      "en:palm-oil-free",
+      "en:vegan",
+      "en:vegetarian"
+    ],
+    "ingredients_debug": [
+      "5.6%",
+      ". ",
+      null,
+      null,
+      null,
+      "Eau",
+      ",",
+      null,
+      null,
+      null,
+      " Orge",
+      ",",
+      null,
+      null,
+      null,
+      " Levure",
+      ",",
+      null,
+      null,
+      null,
+      " Houblon."
+    ],
+    "ingredients_from_or_that_may_be_from_palm_oil_n": 0,
+    "ingredients_from_palm_oil_n": 0,
+    "ingredients_from_palm_oil_tags": [],
+    "ingredients_hierarchy": [
+      "en:water",
+      "en:malted-barley",
+      "en:cereal",
+      "en:malt",
+      "en:hops",
+      "en:plant",
+      "en:yeast"
+    ],
+    "ingredients_ids_debug": [
+      "5-6",
+      "eau",
+      "orge",
+      "levure",
+      "houblon"
+    ],
+    "ingredients_n": 4,
+    "ingredients_n_tags": [
+      "4",
+      "1-10"
+    ],
+    "ingredients_original_tags": [
+      "en:water",
+      "en:malted-barley",
+      "en:hops",
+      "en:yeast"
+    ],
+    "ingredients_percent_analysis": 1,
+    "ingredients_tags": [
+      "en:water",
+      "en:malted-barley",
+      "en:cereal",
+      "en:malt",
+      "en:hops",
+      "en:plant",
+      "en:yeast"
+    ],
+    "ingredients_text": "Eau, malt d'_orge_, houblons, levure.",
+    "ingredients_text_debug": "5.6%. Eau, Orge, Levure, Houblon.",
+    "ingredients_text_en": "Water, malted _barley_, hops, yeast.",
+    "ingredients_text_fr": "Eau, malt d'_orge_, houblons, levure.",
+    "ingredients_text_with_allergens": "Eau, malt d'<span class=\"allergen\">orge</span>, houblons, levure.",
+    "ingredients_text_with_allergens_en": "Water, malted <span class=\"allergen\">barley</span>, hops, yeast.",
+    "ingredients_text_with_allergens_fr": "Eau, malt d'<span class=\"allergen\">orge</span>, houblons, levure.",
+    "ingredients_that_may_be_from_palm_oil_n": 0,
+    "ingredients_that_may_be_from_palm_oil_tags": [],
+    "interface_version_created": "20120622",
+    "interface_version_modified": "20150316.jqm2",
+    "known_ingredients_n": 7,
+    "labels": "Déconseillé aux femmes enceintes",
+    "labels_hierarchy": [
+      "fr:deconseille-aux-femmes-enceintes"
+    ],
+    "labels_lc": "fr",
+    "labels_old": "Déconseillé aux femmes enceintes",
+    "labels_tags": [
+      "fr:deconseille-aux-femmes-enceintes"
+    ],
+    "lang": "fr",
+    "languages": {
+      "en:english": 5,
+      "en:french": 5
+    },
+    "languages_codes": {
+      "en": 5,
+      "fr": 5
+    },
+    "languages_hierarchy": [
+      "en:english",
+      "en:french"
+    ],
+    "languages_tags": [
+      "en:english",
+      "en:french",
+      "en:2",
+      "en:multilingual"
+    ],
+    "last_edit_dates_tags": [
+      "2020-11-15",
+      "2020-11",
+      "2020"
+    ],
+    "last_editor": "versgui",
+    "last_image_dates_tags": [
+      "2020-05-30",
+      "2020-05",
+      "2020"
+    ],
+    "last_image_t": 1590833548,
+    "last_modified_by": "versgui",
+    "last_modified_t": 1605459311,
+    "lc": "fr",
+    "link": "",
+    "main_countries_tags": [],
+    "manufacturing_places": "Scotland,UK",
+    "manufacturing_places_tags": [
+      "scotland",
+      "uk"
+    ],
+    "max_imgid": "12",
+    "minerals_prev_tags": [],
+    "minerals_tags": [],
+    "misc_tags": [
+      "en:nutriscore-not-computed",
+      "en:nutriscore-not-applicable",
+      "en:ecoscore-missing-data-warning",
+      "en:ecoscore-computed"
+    ],
+    "no_nutrition_data": "",
+    "nova_group": 3,
+    "nova_group_debug": " -- categories/en:alcoholic-beverages : 3",
+    "nova_group_tags": [
+      "not-applicable"
+    ],
+    "nova_groups": "3",
+    "nova_groups_tags": [
+      "en:3-processed-foods"
+    ],
+    "nucleotides_prev_tags": [],
+    "nucleotides_tags": [],
+    "nutrient_levels": {},
+    "nutrient_levels_tags": [],
+    "nutriments": {
+      "alcohol": 5.6,
+      "alcohol_100g": 5.6,
+      "alcohol_serving": 5.6,
+      "alcohol_unit": "% vol",
+      "alcohol_value": 5.6,
+      "fruits-vegetables-nuts-estimate-from-ingredients_100g": 0,
+      "nova-group": 3,
+      "nova-group_100g": 3,
+      "nova-group_serving": 3
+    },
+    "nutrition_data": "on",
+    "nutrition_data_per": "100g",
+    "nutrition_data_prepared": "",
+    "nutrition_data_prepared_per": "100g",
+    "nutrition_grades_tags": [
+      "not-applicable"
+    ],
+    "nutrition_score_beverage": 1,
+    "nutrition_score_debug": "no nutriscore for category en:alcoholic-beverages",
+    "obsolete": "",
+    "obsolete_since_date": "",
+    "origins": "",
+    "origins_hierarchy": [],
+    "origins_lc": "en",
+    "origins_old": "",
+    "origins_tags": [],
+    "other_nutritional_substances_tags": [],
+    "packaging": "Canette",
+    "packaging_tags": [
+      "canette"
+    ],
+    "packagings": [
+      {
+        "shape": "en:drink-can"
+      }
+    ],
+    "photographers_tags": [
+      "lombaxair",
+      "kiliweb",
+      "foodrepo",
+      "gaetan7",
+      "sebleouf"
+    ],
+    "pnns_groups_1": "Alcoholic beverages",
+    "pnns_groups_1_tags": [
+      "alcoholic-beverages",
+      "known"
+    ],
+    "pnns_groups_2": "Alcoholic beverages",
+    "pnns_groups_2_tags": [
+      "alcoholic-beverages",
+      "known"
+    ],
+    "popularity_key": 19950000021,
+    "popularity_tags": [
+      "top-100000-scans-2019",
+      "at-least-5-scans-2019",
+      "top-75-percent-scans-2019",
+      "top-80-percent-scans-2019",
+      "top-85-percent-scans-2019",
+      "top-90-percent-scans-2019",
+      "top-100000-fr-scans-2019",
+      "top-country-fr-scans-2019",
+      "at-least-5-fr-scans-2019",
+      "top-50000-scans-2020",
+      "top-100000-scans-2020",
+      "at-least-5-scans-2020",
+      "at-least-10-scans-2020",
+      "top-75-percent-scans-2020",
+      "top-80-percent-scans-2020",
+      "top-85-percent-scans-2020",
+      "top-90-percent-scans-2020",
+      "top-50000-fr-scans-2020",
+      "top-100000-fr-scans-2020",
+      "top-country-fr-scans-2020",
+      "at-least-5-fr-scans-2020",
+      "at-least-10-fr-scans-2020",
+      "top-5000-ch-scans-2020",
+      "top-10000-ch-scans-2020",
+      "top-50000-ch-scans-2020",
+      "top-100000-ch-scans-2020",
+      "top-5000-se-scans-2020",
+      "top-10000-se-scans-2020",
+      "top-50000-se-scans-2020",
+      "top-100000-se-scans-2020"
+    ],
+    "product_name": "Punk IPA",
+    "product_name_debug_tags": [],
+    "product_name_en": "Punk IPA",
+    "product_name_fr": "Punk IPA",
+    "product_quantity": "500",
+    "purchase_places": "",
+    "purchase_places_tags": [],
+    "quantity": "500 ml",
+    "removed_countries_tags": [],
+    "rev": 38,
+    "scans_n": 31,
+    "selected_images": {
+      "front": {
+        "display": {
+          "en": "https://images.openfoodfacts.org/images/products/506/015/491/4030/front_en.30.400.jpg",
+          "fr": "https://images.openfoodfacts.org/images/products/506/015/491/4030/front_fr.29.400.jpg"
+        },
+        "small": {
+          "en": "https://images.openfoodfacts.org/images/products/506/015/491/4030/front_en.30.200.jpg",
+          "fr": "https://images.openfoodfacts.org/images/products/506/015/491/4030/front_fr.29.200.jpg"
+        },
+        "thumb": {
+          "en": "https://images.openfoodfacts.org/images/products/506/015/491/4030/front_en.30.100.jpg",
+          "fr": "https://images.openfoodfacts.org/images/products/506/015/491/4030/front_fr.29.100.jpg"
+        }
+      },
+      "ingredients": {
+        "display": {
+          "en": "https://images.openfoodfacts.org/images/products/506/015/491/4030/ingredients_en.32.400.jpg",
+          "fr": "https://images.openfoodfacts.org/images/products/506/015/491/4030/ingredients_fr.35.400.jpg"
+        },
+        "small": {
+          "en": "https://images.openfoodfacts.org/images/products/506/015/491/4030/ingredients_en.32.200.jpg",
+          "fr": "https://images.openfoodfacts.org/images/products/506/015/491/4030/ingredients_fr.35.200.jpg"
+        },
+        "thumb": {
+          "en": "https://images.openfoodfacts.org/images/products/506/015/491/4030/ingredients_en.32.100.jpg",
+          "fr": "https://images.openfoodfacts.org/images/products/506/015/491/4030/ingredients_fr.35.100.jpg"
+        }
+      },
+      "nutrition": {
+        "display": {
+          "en": "https://images.openfoodfacts.org/images/products/506/015/491/4030/nutrition_en.33.400.jpg",
+          "fr": "https://images.openfoodfacts.org/images/products/506/015/491/4030/nutrition_fr.34.400.jpg"
+        },
+        "small": {
+          "en": "https://images.openfoodfacts.org/images/products/506/015/491/4030/nutrition_en.33.200.jpg",
+          "fr": "https://images.openfoodfacts.org/images/products/506/015/491/4030/nutrition_fr.34.200.jpg"
+        },
+        "thumb": {
+          "en": "https://images.openfoodfacts.org/images/products/506/015/491/4030/nutrition_en.33.100.jpg",
+          "fr": "https://images.openfoodfacts.org/images/products/506/015/491/4030/nutrition_fr.34.100.jpg"
+        }
+      }
+    },
+    "sortkey": 1605459311,
+    "sources": [
+      {
+        "fields": [
+          "countries"
+        ],
+        "id": "openfood-ch",
+        "images": [],
+        "import_t": 1548768718,
+        "manufacturer": "0",
+        "name": "FoodRepo",
+        "source_licence": "Creative Commons Attribution 4.0 International License",
+        "source_licence_url": "https://creativecommons.org/licenses/by/4.0/",
+        "url": "https://www.foodrepo.org/ch/products/21416"
+      }
+    ],
+    "states": "en:to-be-completed, en:nutrition-facts-completed, en:ingredients-completed, en:expiration-date-to-be-completed, en:packaging-code-to-be-completed, en:characteristics-completed, en:categories-completed, en:brands-completed, en:packaging-completed, en:quantity-completed, en:product-name-completed, en:photos-to-be-validated, en:packaging-photo-to-be-selected, en:nutrition-photo-selected, en:ingredients-photo-selected, en:front-photo-selected, en:photos-uploaded",
+    "states_hierarchy": [
+      "en:to-be-completed",
+      "en:nutrition-facts-completed",
+      "en:ingredients-completed",
+      "en:expiration-date-to-be-completed",
+      "en:packaging-code-to-be-completed",
+      "en:characteristics-completed",
+      "en:categories-completed",
+      "en:brands-completed",
+      "en:packaging-completed",
+      "en:quantity-completed",
+      "en:product-name-completed",
+      "en:photos-to-be-validated",
+      "en:packaging-photo-to-be-selected",
+      "en:nutrition-photo-selected",
+      "en:ingredients-photo-selected",
+      "en:front-photo-selected",
+      "en:photos-uploaded"
+    ],
+    "states_tags": [
+      "en:to-be-completed",
+      "en:nutrition-facts-completed",
+      "en:ingredients-completed",
+      "en:expiration-date-to-be-completed",
+      "en:packaging-code-to-be-completed",
+      "en:characteristics-completed",
+      "en:categories-completed",
+      "en:brands-completed",
+      "en:packaging-completed",
+      "en:quantity-completed",
+      "en:product-name-completed",
+      "en:photos-to-be-validated",
+      "en:packaging-photo-to-be-selected",
+      "en:nutrition-photo-selected",
+      "en:ingredients-photo-selected",
+      "en:front-photo-selected",
+      "en:photos-uploaded"
+    ],
+    "stores": "",
+    "stores_tags": [],
+    "traces": "en:gluten",
+    "traces_from_ingredients": "",
+    "traces_from_user": "(fr) en:gluten",
+    "traces_hierarchy": [
+      "en:gluten"
+    ],
+    "traces_lc": "fr",
+    "traces_tags": [
+      "en:gluten"
+    ],
+    "unique_scans_n": 19,
+    "unknown_ingredients_n": 0,
+    "unknown_nutrients_tags": [],
+    "update_key": "eco",
+    "vitamins_prev_tags": [],
+    "vitamins_tags": []
+  },
+  "status": 1,
+  "status_verbose": "product found"
+}

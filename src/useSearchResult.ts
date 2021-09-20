@@ -1,13 +1,13 @@
 import { useEffect, useState } from "react";
-import { ApiResponse, fetchOpenFoodFacts } from "./http";
+import { fetchSearch, SearchApiResponse } from "./http";
 
 export const useSearchResult = (searchTerm: string) => {
-  const [searchResult, setSearchResult] = useState<ApiResponse>();
+  const [searchResult, setSearchResult] = useState<SearchApiResponse>();
   useEffect(() => {
     if (searchTerm.length < 3) return;
     // delay/cleanup to not fetch when the user is still typing
     const timeoutId = setTimeout(() => {
-      fetchOpenFoodFacts(searchTerm)
+      fetchSearch(searchTerm)
         .then((result) => setSearchResult(result))
         .catch((e) => console.log(e)); // TODO handle errors
     }, 500);

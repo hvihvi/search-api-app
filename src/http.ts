@@ -1,9 +1,9 @@
-export const fetchOpenFoodFacts = (searchTerm: string): Promise<ApiResponse> =>
+export const fetchSearch = (searchTerm: string): Promise<SearchApiResponse> =>
   fetch(
     `https://world.openfoodfacts.org/cgi/search.pl?search_terms=${searchTerm}&json=1&page_size=20&page=1`
   ).then((r) => r.json());
 
-export type ApiResponse = {
+export type SearchApiResponse = {
   products: Product[];
 };
 export type Product = {
@@ -12,7 +12,7 @@ export type Product = {
   product_name: string;
 };
 
-export const fetchProducts = (id: string): Promise<ProductApiResponse> =>
+export const fetchProduct = (id: string): Promise<ProductApiResponse> =>
   fetch(`https://world.openfoodfacts.org/api/v0/product/${id}.json`).then((r) =>
     r.json()
   );
