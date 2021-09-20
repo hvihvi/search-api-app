@@ -6,6 +6,19 @@
     filter: drop-shadow(0px 0px 4px hsl(0deg 0% 0% / 0.3));
     transition: transform 0.2s ease-in;
 }
+.ProductImage a:first-child {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 10px;
+    text-align: center;
+    backdrop-filter: blur(4px);
+    text-decoration: none;
+    color: white;
+    background-color: #00d4f3c7;
+    font-weight: 600;
+}
 
 .ProductImage img {
     width: 200px;
