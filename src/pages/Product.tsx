@@ -1,24 +1,27 @@
 import { useParams } from "react-router";
 import { useProduct } from "../useProduct";
 import { Labels } from "../design-system/Labels";
+import "./Product.css";
 
 export const Product = () => {
   const { id } = useParams<PathParams>();
   const product = useProduct(id);
 
   return (
-    <main>
-      <h1>{product?.product_name}</h1>
+    <main className="Product">
       <img src={product?.image_front_url} alt={product?.product_name} />
       <section>
-        Keywords:
+        <h1>{product?.product_name}</h1>
         <Labels color="blue" items={product?._keywords ?? []} />
-      </section>
-      <section>
-        Allergens:
+        <h2>Allergènes</h2>
         <Labels
           color="pink"
-          items={product?.allergens.replace("en:", "").split(" ") ?? []}
+          items={
+            product?.allergens
+              .replace("en:", "")
+              .split(" ")
+              .filter((it) => it !== "") ?? []
+          }
         />
       </section>
     </main>
