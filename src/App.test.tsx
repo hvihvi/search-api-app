@@ -1,5 +1,5 @@
 import React from "react";
-import { fireEvent, render, screen, waitFor } from "@testing-library/react";
+import { fireEvent, render, screen } from "@testing-library/react";
 import App from "./App";
 import mockSearch from "./mocks/mock_search.json";
 import mockProduct from "./mocks/mock_product.json";
@@ -33,7 +33,7 @@ describe("My app", () => {
 
     // then
     const brewdog = await screen.findByAltText("Punk IPA");
-    await waitFor(() => expect(brewdog).toBeInTheDocument());
+    expect(brewdog).toBeInTheDocument();
   });
 
   it("should render a product page when clicking on a product image", async () => {
@@ -44,7 +44,7 @@ describe("My app", () => {
     const input = screen.getByLabelText(/Rechercher un produit/i);
     fireEvent.change(input, { target: { value: "IPA" } });
     const brewdog = await screen.findByAltText("Punk IPA");
-    await waitFor(() => expect(brewdog).toBeInTheDocument());
+    expect(brewdog).toBeInTheDocument();
 
     // when
     fireEvent.click(brewdog);
