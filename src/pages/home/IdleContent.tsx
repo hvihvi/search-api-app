@@ -1,4 +1,4 @@
-export const EmptyContent = () => (
+export const IdleContent = () => (
   <section>
     <div>Vous pouvez rechercher un produit ci-dessous 🙂</div>
     <GrosDoigtVersLeBas />
