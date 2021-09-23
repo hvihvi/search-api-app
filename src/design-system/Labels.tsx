@@ -9,7 +9,7 @@ export const Labels = ({ items, color }: LabelsProps) => {
           <Label color={color}>Aucun</Label>
         </li>
       )}
-      {items.map((item, idx) => (
+      {removeDuplicates(items).map((item, idx) => (
         <li key={item + idx}>
           <Label color={color}>{item}</Label>
         </li>
@@ -17,6 +17,8 @@ export const Labels = ({ items, color }: LabelsProps) => {
     </ul>
   );
 };
+
+const removeDuplicates = (items: string[]) => Array.from(new Set(items));
 
 type LabelsProps = {
   items: string[];
