@@ -9,8 +9,8 @@ export const Labels = ({ items, color }: LabelsProps) => {
           <Label color={color}>Aucun</Label>
         </li>
       )}
-      {items.map((item) => (
-        <li key={item}>
+      {items.map((item, idx) => (
+        <li key={item + idx}>
           <Label color={color}>{item}</Label>
         </li>
       ))}
