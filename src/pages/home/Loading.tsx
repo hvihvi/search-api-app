@@ -1,4 +1,5 @@
 import * as React from "react";
+import "./Loading.css";
 
 export const Loading = () => {
   return (
@@ -11,6 +12,7 @@ export const Loading = () => {
 
 const CheapSpinner = () => (
   <div
+    className="CheapSpinner"
     style={{
       fontSize: "3rem",
       display: "flex",
