@@ -11,7 +11,7 @@ export type Product = {
   image_front_url: string;
   product_name: string;
   _keywords: string[];
-  allergens: string;
+  allergens_from_ingredients: string;
 };
 
 export const fetchProduct = (id: string): Promise<ProductApiResponse> =>

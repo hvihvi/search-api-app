@@ -17,9 +17,9 @@ export const Product = () => {
         <Labels
           color="pink"
           items={
-            product?.allergens
+            product?.allergens_from_ingredients
               .replace("en:", "")
-              .split(" ")
+              .split(", ")
               .filter((it) => it !== "") ?? []
           }
         />
