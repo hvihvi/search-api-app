@@ -7,6 +7,6 @@ export const useProduct = (id: string) => {
     fetchProduct(id)
       .then((result) => setProduct(result.product))
       .catch((e) => console.log(e)); // TODO handle errors
-  }, [id, product]);
+  }, [id]);
   return product;
 };
