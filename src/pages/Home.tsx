@@ -5,12 +5,13 @@ import { BottomContainer } from "../design-system/BottomContainer";
 import { ProductContainer } from "../design-system/ProductContainer";
 import { ProductImage } from "../design-system/ProductImage";
 import { EmptyContent } from "../EmptyContent";
+import "./Home.css";
 
 const App = () => {
   const [searchTerm, setSearchTerm] = useState("");
   const searchResult = useSearchResult(searchTerm);
   return (
-    <main>
+    <main className="Home">
       <ProductContainer>
         {searchResult?.products.map((product) => (
           <ProductImage product={product} key={product._id} />
